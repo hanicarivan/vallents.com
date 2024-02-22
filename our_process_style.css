@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Aileron;
+    src: url(Aileron-Regular.otf);
+}
+body{
+    font-family: Aileron;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2E2F;
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+}
+.home{
+    color: #00B5C4;
+}
+nav div{
+    width: 960px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0 20px 0;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    width: 10.2%;
+}
+footer{
+    background-color: #00B5C4;
+    margin: 0;
+    padding: 0;
+}
+.home2{
+    color: black;
+}
+section div{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+section div article{
+    width: 47%;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: lighter;
+}
+img{
+    border-radius: 5px;
+}
+.first{
+    border-radius: 5px;
+    background-color: #51585b;
+    padding: 20px;
+}
+footer div{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+footer div article{
+    width: 50%;
+}
+footer div article ul{
+    padding-top: 30px;
+}
+.list a li{
+    text-decoration: underline white 2px;
+}
+.list li{
+    width: 100%;
+    padding: 10px;
+}
+@media only screen and (max-width: 960px) {
+    nav div{
+        width: 100%;
+    }
+    li{
+        width: 100%;
+        padding: 30px 0;
+    }
+    section div{
+        width: 90%;
+    }
+    section div article{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .other{
+        flex-wrap: wrap-reverse;
+    }
+    .logo{
+        width: 200px;
+        padding: 20px 0;
+    }
+    footer div{
+        width: 95%;
+    }
+    footer div article{
+        width: 100%;
+    }
+    h1{
+        font-size: 32px;
+    }
+    p{
+        font-size: 18px;
+    }
+}

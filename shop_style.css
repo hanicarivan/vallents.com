@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Aileron;
+    src: url(Aileron-Regular.otf);
+}
+body{
+    font-family: Aileron;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2E2F;
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    color: #00B5C4;
+}
+nav div{
+    width: 960px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0 20px 0;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    width: 10.2%;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+.sectioned{
+    margin-bottom: 20px;
+}
+.sectioned div{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sectioned div div{
+    width: 44.3%;
+    padding: 20px;
+    background-color: #51585b;
+    border-radius: 5px;
+    border: white solid 2px;
+}
+img{
+    border-radius: 5px;
+}
+footer{
+    background-color: #00B5C4;
+    margin: 0;
+    padding: 0;
+}
+footer div{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+footer div article{
+    width: 50%;
+}
+footer div article ul{
+    padding-top: 30px;
+}
+.list a li{
+    text-decoration: underline white 2px;
+}
+.list li{
+    width: 100%;
+    padding: 10px;
+}
+h3{
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+@media only screen and (max-width: 960px) {
+    nav div{
+        width: 100%;
+    }
+    li{
+        width: 100%;
+        padding: 30px 0;
+    }
+    header div{
+        width: 100%;
+    }
+    .know div{
+        width: 90%;
+    }
+    .cover div{
+        width: 90%;
+    }
+    .cover article{
+        width: 100%;
+    }
+    .sectioned div{
+        width: 95%;
+    }
+    .sectioned div div{
+        width: 100%;
+    }
+    footer div{
+        width: 95%;
+    }
+    footer div article{
+        width: 100%;
+    }
+    h3{
+        width: 90%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+}

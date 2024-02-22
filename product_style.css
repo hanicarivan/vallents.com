@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Aileron;
+    src: url(Aileron-Regular.otf);
+}
+body{
+    font-family: Aileron;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2E2F;
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    color: #00B5C4;
+}
+nav div{
+    width: 960px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0 20px 0;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    width: 10.2%;
+}
+section div{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+section div article{
+    width: 45%;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 48px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+img{
+    border-radius: 5px;
+}
+.first{
+    border-radius: 5px;
+    background-color: #51585b;
+    padding: 0px 40px;
+}
+footer{
+    background-color: #00B5C4;
+    margin: 0;
+    padding: 0;
+}
+footer div{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+footer div article{
+    width: 50%;
+}
+footer div article ul{
+    padding-top: 30px;
+}
+.list a li{
+    text-decoration: underline white 2px;
+}
+.list li{
+    width: 100%;
+    padding: 10px;
+}
+.arrows{
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+    color: #00B5C4;
+}
+@media only screen and (max-width: 960px) {
+    nav div{
+        width: 100%;
+    }
+    li{
+        width: 100%;
+        padding: 30px 0;
+    }
+    section div{
+        width: 95%;
+    }
+    section div article{
+        width: 100%;
+    }
+    footer div{
+        width: 95%;
+    }
+    footer div article{
+        width: 100%;
+    }
+}
